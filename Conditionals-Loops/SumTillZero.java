@@ -12,3 +12,4 @@ public class SumTillZero {
         sc.close();
     }
 }
+ 
