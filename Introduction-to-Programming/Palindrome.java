@@ -9,7 +9,7 @@ public class Palindrome {
         System.out.print("Enter a string: ");
         String input = scanner.next().toLowerCase();
 
-        if (findPalindrome(input))
+        if (findPalindrom(input))
             System.out.println("Palindrome");
         else
             System.out.println("Not a Palindrome");
@@ -17,7 +17,7 @@ public class Palindrome {
         scanner.close();
     }
 
-    private static boolean findPalindrome(String input) {
+    private static boolean findPalindrom(String input) {
         for (int i = 0; i < input.length() / 2; i++) {
             if (input.charAt(i) != input.charAt(input.length() - 1 - i)) {
                 return false;
