@@ -8,7 +8,7 @@ public class LargestTillZero {
         while((n = sc.nextInt()) != 0){
             if(n > max) max = n;
         }
-        System.out.println("Largest: " + max);
+        System.out.println("Largest: " + max); 
         sc.close();
     }
 }
