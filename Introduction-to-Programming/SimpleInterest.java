@@ -26,4 +26,4 @@ public class SimpleInterest {
     private static float findSimpleInterest(int principalAmount, float rateOfInterest, int numberOfYears) {
         return (principalAmount * rateOfInterest * numberOfYears) / 100;
     }
-}
+} 
