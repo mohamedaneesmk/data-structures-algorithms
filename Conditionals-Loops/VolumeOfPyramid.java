@@ -7,7 +7,7 @@ public class VolumeOfPyramid {
         double h = sc.nextDouble();
         double volume = (baseArea * h) / 3;
         System.out.println("Volume: " + volume);
-        sc.close();
+        sc.close(); 
     }
 }
 
