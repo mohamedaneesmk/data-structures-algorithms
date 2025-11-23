@@ -22,7 +22,7 @@ public class PowerCalculator {
         
         while (e > 0) {
             if ((e & 1) == 1) {
-                result *= b;
+                result *= b; 
             }
             b *= b;
             e >>= 1;
