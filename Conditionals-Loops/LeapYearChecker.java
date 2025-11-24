@@ -14,7 +14,7 @@ public class LeapYearChecker {
         sc.close();
     }
     
-    // O(1) time complexity
+    // O(1) time complexity 
     public static boolean isLeapYear(int year) {
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
