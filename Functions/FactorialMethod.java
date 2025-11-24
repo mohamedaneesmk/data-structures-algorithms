@@ -28,7 +28,7 @@ public class FactorialMethod {
         }
         return result;
     }
-    
+     
     // Alternative: Recursive approach - O(n) time, O(n) space
     public static long FactorialRecursive(int n) {
         if (n < 0) return -1;
