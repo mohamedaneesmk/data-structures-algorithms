@@ -30,4 +30,4 @@ public class CircleCalculator {
     public static double[] getCircleProperties(double radius) {
         return new double[]{calculateCircumference(radius), calculateArea(radius)};
     }
-}
+} 
