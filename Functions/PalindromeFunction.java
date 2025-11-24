@@ -42,7 +42,7 @@ public class PalindromeFunction {
                 return false;
             }
             left++;
-            right--;
+            right--; 
         }
         return true;
     }
