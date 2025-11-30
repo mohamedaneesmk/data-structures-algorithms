@@ -1,6 +1,4 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
 public class PermutationArray {
     public static void main(String[] args) {
         int[] nums = {0,2,1,5,3,4};
