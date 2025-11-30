@@ -1,3 +1,4 @@
+package Problems;
 import java.util.Arrays;
 public class PermutationArray {
     public static void main(String[] args) {
