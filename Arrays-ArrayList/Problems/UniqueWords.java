@@ -21,7 +21,7 @@ public class UniqueWords {
                 list.add(word);
             }
         }
-
+ 
         Collections.sort(list);
 
         System.out.println("Unique sorted words: " + list);
