@@ -11,7 +11,7 @@ public class GuessTheNumber {
 
     private static int findTheNumber(int num) {
         int low = 1;
-        int high = num;
+        int high = num; 
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
