@@ -4,7 +4,7 @@ public class FindSquareRoot {
         int result = findSqrt(num);
         System.out.println(result);        
     }
-
+ 
     private static int findSqrt(int num){
        if (num < 2) return num;
 
