@@ -17,7 +17,7 @@ public class GuessTheNumber {
             int mid = low + (high - low) / 2;
             int result = guess(mid);
 
-            if (result == 0)
+            if (result == 0) 
                 return mid;
             else if (result == 1)
                 low = mid + 1;
