@@ -10,7 +10,7 @@ public class ArrangeCoins {
         long low = 0;
         long high = num;
 
-        while (low <= high) {
+        while (low <= high) { 
             long mid = low + (high - low) / 2;
             long coins = mid * (mid + 1) / 2;
 
