@@ -19,7 +19,7 @@ public class FirstAndLastPosition {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
-
+ 
             if (target == nums[mid]) {
                 index = mid;
                 right = mid - 1;
