@@ -1,7 +1,7 @@
 public class ArrangeCoins {
     public static void main(String[] args) {
         int num = 5;
-        int result = arrangeCoins(num);
+        int result = arrangeCoins(num); 
 
         System.out.println(result);
     }
