@@ -1,8 +1,8 @@
 public class PeakIndexMountainArray {
     public static void main(String[] args) {
         int[] arr = {0, 1, 0};
-        int result = findPeakIndexMountainArray(arr);
-        System.out.println(result);
+        int result = findPeakIndexMountainArray(arr); 
+        System.out.println(result); 
     }
 
     private static int findPeakIndexMountainArray(int[] arr) {
