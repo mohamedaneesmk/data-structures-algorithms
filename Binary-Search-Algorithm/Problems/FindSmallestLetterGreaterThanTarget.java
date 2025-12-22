@@ -4,7 +4,7 @@ public class FindSmallestLetterGreaterThanTarget {
     public static char nextGreatestLetter(char[] letters, char target) {
         int start = 0;
         int end = letters.length - 1;
-
+ 
         // Binary Search
         while (start <= end) {
             int mid = start + (end - start) / 2;
