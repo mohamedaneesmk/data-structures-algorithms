@@ -21,3 +21,4 @@ public class BinarySearchRecursive {
         System.out.println(binarySearch(arr, 0, arr.length - 1, target));
     }
 }
+ 
