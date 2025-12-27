@@ -2,7 +2,7 @@ public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
         int[] nums = { 0, 1, 1, 3, 4, 4, 6, 7, 9 };
         int target = 9;
-
+ 
         int result = orderAgnosticBinarySearch(nums, target);
         System.out.println(result);
     }
