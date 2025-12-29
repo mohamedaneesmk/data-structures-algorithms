@@ -2,7 +2,7 @@ import java.util.Arrays;
  
 public class RowColMatrix {
     public static void main(String[] args) {
-        int[][] arr = {
+        int[][] arr = { 
             {10, 20, 30, 40},
             {15, 25, 35, 45},
             {27, 29, 37, 48}, 
