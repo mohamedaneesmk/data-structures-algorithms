@@ -22,7 +22,7 @@ public class RankTransform {
         for (int num : sortedArr) {
             if (!rankMap.containsKey(num)) {
                 rankMap.put(num, rank++);
-            }
+            } 
         }
 
         // Step 3: Transform the original array to its ranks
